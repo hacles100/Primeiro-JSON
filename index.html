@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treino Json</title>
+</head>
+
+<body>
+
+    <script>
+
+        var frutas = `{
+
+            "fruta": "Banana",
+            "preco": 15.50,
+            "tipo": [
+
+                "Prata",
+                "Macã",
+                "Nanica",
+                "Da Terra",
+                "Ouro"
+            ],
+
+            "origem": "Brasil",
+            "caractere": "\u3071"
+        }`
+
+        console.log(frutas);
+        console.log(JSON.parse(frutas))
+    </script>
+    
+</body>
+</html>
